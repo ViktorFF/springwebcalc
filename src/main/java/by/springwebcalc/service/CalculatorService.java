@@ -1,6 +1,7 @@
 package by.springwebcalc.service;
 
 import by.springwebcalc.Calculator;
+import by.springwebcalc.model.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -18,13 +19,12 @@ public class CalculatorService {
         this.calculator = calculator;
     }
 
-    public String calculate(String firstElement, String secondElement,
-                            String operation, List<String> history) {
+    public String calculate(Operation operation, List<String> history) {
         double result = 0;
-        double var1 = Double.parseDouble(firstElement);
-        double var2 = Double.parseDouble(secondElement);
+        double var1 = Double.parseDouble(operation.getVar1());
+        double var2 = Double.parseDouble(operation.getVar2());
 
-        switch (operation) {
+        switch (operation.getOperationType()) {
             case "sum" :
                 result = calculator.sum(var1, var2);
                 break;
@@ -39,7 +39,7 @@ public class CalculatorService {
                 break;
         }
         history.add(new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss", Locale.ENGLISH).format(new Date()) +
-                " : " + var1 + " " + operation + " " + var2 + " = " + result);
+                " : " + var1 + " " + operation.getOperationType() + " " + var2 + " = " + result);
         return String.valueOf(result);
     }
 }

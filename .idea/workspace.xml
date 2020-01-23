@@ -6,7 +6,63 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd135cc5-caf2-473a-a8f5-68d09d42c858" name="Default Changelist" comment="first commit" />
+    <list default="true" id="bd135cc5-caf2-473a-a8f5-68d09d42c858" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/config/MVCConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/config/SpringMVCDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/config/SpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/CalculatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/EditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/HistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/HistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/LogoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/LogoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/ProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/listener/MainListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/listener/MainListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/service/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/service/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/springwebcalc/service/CalculatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/service/EditService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/springwebcalc/service/RegistrationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/auth.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/auth.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/calculator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/calculator.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/reg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/config/MainConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/config/SpringMVCDispatcherServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/springwebcalc/config/SpringMVCDispatcherServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/AuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/CalculatorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/CalculatorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/EditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/EditController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/HistoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/HistoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/LogoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/LogoutController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/ProfileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/springwebcalc/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/listener/MainListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/springwebcalc/listener/MainListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/springwebcalc/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/service/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/service/CalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/springwebcalc/service/CalculatorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/service/EditService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/springwebcalc/service/RegistrationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/config/MainConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/config/SpringMVCDispatcherServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/config/SpringMVCDispatcherServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/AuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/CalculatorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/CalculatorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/EditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/EditController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/HistoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/HistoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/LogoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/LogoutController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/ProfileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/listener/MainListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/listener/MainListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/service/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/service/CalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/service/CalculatorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/service/EditService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/WEB-INF/classes/by/springwebcalc/service/RegistrationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/views/auth.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/views/auth.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/views/calculator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/views/calculator.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/views/history.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/views/history.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-web-calc/views/reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-web-calc/views/reg.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +110,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SocialNetwork" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springweb" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -231,6 +289,10 @@
       <option name="presentableId" value="Default" />
       <updated>1579534913287</updated>
       <workItem from="1579534916048" duration="23433000" />
+      <workItem from="1579609391436" duration="95000" />
+      <workItem from="1579623428534" duration="8373000" />
+      <workItem from="1579632418835" duration="487000" />
+      <workItem from="1579795189563" duration="9908000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1579607804694</created>
@@ -251,6 +313,19 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />

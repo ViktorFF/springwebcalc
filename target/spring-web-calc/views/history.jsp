@@ -9,7 +9,7 @@
     <h1>History</h1>
 </header>
 <main>
-    <form action="${pageContext.request.contextPath}/calculator" method="get">
+    <form action="${pageContext.request.contextPath}/profile" method="get">
         <button type="submit">Back</button>
     </form>
     <c:if test="${historyFlag}">

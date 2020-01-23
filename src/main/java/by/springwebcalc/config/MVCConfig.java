@@ -7,7 +7,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @ComponentScan("by.springwebcalc")
-public class MainConfig {
+public class MVCConfig {
 
     @Bean
     public InternalResourceViewResolver resolver() {

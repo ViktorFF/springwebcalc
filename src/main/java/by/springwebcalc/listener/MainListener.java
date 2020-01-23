@@ -30,8 +30,6 @@ public class MainListener implements ServletContextListener,
          initialized(when the Web application is deployed). 
          You can initialize servlet context related data here.
       */
-        Map<String, User> users = new HashMap<>();
-        sce.getServletContext().setAttribute("users", users);
     }
 
     public void contextDestroyed(ServletContextEvent sce) {
